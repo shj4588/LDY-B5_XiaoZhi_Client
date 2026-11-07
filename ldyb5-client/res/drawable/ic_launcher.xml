@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 小智图标：HUD 深色圆角底 + 黄色眼睛/笑脸 + 青色天线点 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 圆角方形底 -->
+    <path
+        android:fillColor="#16222C"
+        android:pathData="M14,4 h80 a10,10 0 0 1 10,10 v80 a10,10 0 0 1 -10,10 h-80 a10,10 0 0 1 -10,-10 v-80 a10,10 0 0 1 10,-10 z" />
+
+    <!-- 天线杆 + 顶点（青色） -->
+    <path
+        android:strokeColor="#2FB4D8"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,26 L54,16" />
+    <path
+        android:fillColor="#2FB4D8"
+        android:pathData="M54,6 m-6,0 a6,6 0 1 1 12,0 a6,6 0 1 1 -12,0" />
+
+    <!-- 左眼（胶囊） -->
+    <path
+        android:fillColor="#F7CF4E"
+        android:pathData="M31,34 a8,8 0 0 1 16,0 v18 a8,8 0 0 1 -16,0 z" />
+
+    <!-- 右眼（胶囊） -->
+    <path
+        android:fillColor="#F7CF4E"
+        android:pathData="M61,34 a8,8 0 0 1 16,0 v18 a8,8 0 0 1 -16,0 z" />
+
+    <!-- 微笑（描边弧线） -->
+    <path
+        android:strokeColor="#F7CF4E"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M32,70 Q54,86 76,70" />
+</vector>

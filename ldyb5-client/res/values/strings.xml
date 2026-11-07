@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="volkey_a11y_label">小智音量条</string>
+    <string name="volkey_a11y_desc">用于在系统缺少音量面板时，按音量键显示仿系统音量条（含静音后再按减键）。不会拦截系统音量调节，仅作显示增强。</string>
+</resources>
